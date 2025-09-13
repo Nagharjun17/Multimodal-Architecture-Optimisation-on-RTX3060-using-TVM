@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Build artifacts
+*.o
+*.so
+build/
+dist/
+*.egg-info/
+
+# Envs & IDE
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+
+# Data / weights / logs
+data/
+outputs/
+logs/
+*.onnx
+*.pt
+*.bin
+*.npz
+
+# Local TVM trees (do not commit)
+tvm/
+tvm.build*/
