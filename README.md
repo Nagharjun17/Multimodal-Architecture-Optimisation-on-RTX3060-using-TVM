@@ -1,4 +1,4 @@
-# TVM Relax: ViT→Text Mini Demo (RTX 3060)
+# TVM Relax: ViT Encoder to Transformer Decoder (multimodal architecture)
 
 This is a benchmark that builds a Vision Transformer encoder and a transformer decoder in **TVM Relax**. It compiles two pipelines (baseline and optimized), and times **encode** and **1-token decode** on an RTX 3060 in float16.
 
